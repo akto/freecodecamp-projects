@@ -1,0 +1,63 @@
+.sections{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 2em;
+    font-size: 1.4em;
+}
+.cntr{
+    align-items: center;
+    justify-content: center;
+}
+.section-nav{ 
+  margin:0;
+  -webkit-padding-start: 0px;
+}
+.section-nav a{ 
+  font-size: 1em;
+  padding: 1px 10px 1px 10px; 
+}
+.section-nav a:hover{ text-decoration: none;}
+.reddish{ background-color: #e85454; }
+.reddish a{ color: #FFF; }
+.reddish a:hover{ color: #fff4d7; text-decoration:none; }
+.yellowish{ background-color: #fff4d7; color: #393a3e; }
+.yellowish a{ color: #2e3131; }
+.yellowish a:hover{ color: #ff764b; }
+.darkish{ background-color: #383838; color: #f4f4f4; }
+.darkish a{ color: #fc0; }
+.darkish a:hover{ color: #f4f4f4; }
+.greyish{ background-color: #DDD; color: #606871; }
+.greyish a{ color: #ff3d53; }
+.greyish a:hover{ color: #727798; }
+.navbar-style{ padding: 50px; }
+.nav-modified ul{ list-style: none; }
+.nav-modified ul li{ margin: 10px; padding: 10px; font-size: 1.8em;}
+.nav a{ margin:10px; }
+.social-media{ font-size: 1.4em; }
+.portfolio-img{
+  padding: 0 10px 20px 0;
+}
+.modified-btn{
+  border: 2px solid #DDD;
+  border-radius: 0;
+  border-bottom: 2px solid #606871;
+  background-color: #DDD;
+  font-size: 1.5em;
+}
+.btn-mod{
+  background-color: #DDD;
+  border-color: #606871;
+}
+.btn-mod:hover{
+  background-color: #606871;
+  color: #FFF;
+  cursor: pointer;
+}
+.modified-btn:focus{
+  background-color: #FFF;
+  border: 2px dashed #d50000;
+  transition: border .7s, background .7s;
+  transition-timing-function: ease;
+}
