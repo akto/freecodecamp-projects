@@ -1,0 +1,49 @@
+@font-face{
+  font-family: Phenomena;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/Phenomena-Regular.otf);
+  font-weight:normal;
+}
+*{
+  font-family: Phenomena; /* Verdana, Geneva, sans-serif;*/
+}
+.card{
+  position: relative;
+  width: 100vw;
+  height: auto;
+  min-height: 80vh;
+}
+.quote-text{
+  font-size: 5em;
+  transition: font-size 1s;
+  transition-timing-function: ease-in;
+}
+.font-decrease{
+  font-size:3.5em;
+}
+.quote-author{
+  font-size: 3em;
+}
+.quote-character-count{
+  font-size: 1.5em;
+}
+.button-div{
+  margin-top: 2em;
+}
+.card, .b-quote{
+  color: #FFF;
+  transition: background 2s linear 1s;
+  background: ##f85032;
+  background: -webkit-linear-gradient(left, #f85032 , #e73827); 
+  background: -o-linear-gradient(right, #f85032, #e73827); 
+  background: -moz-linear-gradient(right, #f85032, #e73827); 
+  background: linear-gradient(to right, #f85032 , #e73827); 
+}
+.b-tweet{
+  color: #FFF;
+  transition: background 2s linear 1s;
+  background: #1da1f2;
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
