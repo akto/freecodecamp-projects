@@ -1,0 +1,51 @@
+@font-face{
+  font-family: Phenomena;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/Phenomena-Regular.otf);
+  font-weight:normal;
+}
+
+@media (max-width: 576px) {
+  .channel {
+    text-align: center;
+  }
+}
+
+.status-bar{
+  vertical-align: middle;
+  margin: 1rem;
+  font-family: Phenomena;
+}
+.channel{
+  margin: 2.5rem 0;
+  vertical-align: middle;
+}
+.channel a{
+  font-family: Phenomena;
+}
+.ch-on,.ch-off{
+  border-left: 2px solid;
+}
+.ch-on{ border-color: rgb(0,140,0);}
+.ch-off{ border-color: rgb(140,0,0);}
+.ch-on:hover{
+  background: rgba(0,140,0,0.1);
+}
+.ch-off:hover{
+  background: rgba(140,0,0,0.1);
+}
+.channel img{
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.online, .offline{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.online, .online-icon{color: #00c853;}
+.offline, .offline-icon{color:#d50000;}
+.channel-status-note{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+

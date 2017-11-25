@@ -1,0 +1,17 @@
+a{ color: rgb(209, 31, 8); }
+a:hover{ color: rgb(9, 142, 40); }
+.text-danger{ color: rgb(209, 31, 8) !important;}
+.jumbotron{
+  background-color:whiteSmoke;
+}
+.img-depth{
+  max-width:100%;
+  margin-bottom: 1.4em;
+}
+.period{
+  border-bottom: solid 1px whiteSmoke;
+}
+
+.dipnot{
+  margin-top: 1em;
+}

@@ -1,0 +1,55 @@
+@font-face{
+  font-family: Phenomena;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/Phenomena-Regular.otf);
+  font-weight:normal;
+}
+*{
+  font-family: Phenomena; /* Verdana, Geneva, sans-serif;*/
+}
+body{
+  background: url(https://unsplash.it/1920/1080?image=791) no-repeat center fixed; 
+  background-size: cover;
+}
+.weather-cast{
+  background: #eee;
+  opacity: 0.8;
+  filter: alpha(opacity=80); 
+  min-height: 100vh;
+}
+.weather-temp{
+  font-size: 9em;
+  transition: font-size 1s;
+  transition-timing-function: ease-in;
+}
+.client-city{
+  font-size: 1.2em;
+  color: #b71c1c;
+}
+.temp-changer{
+  font-size: 2em;
+}
+.temp-changer a{
+  color: #212121;
+}
+.temp-changer a:hover{
+  color: #b71c1c;
+  text-decoration: none;
+}
+.clicked{
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+  text-decoration: none !important;
+}
+.wind-dir-icon{
+  font-size:1.2em;
+  color: #0d47a1;
+}
+
+@media (max-width: 575px) {
+
+  .weather-temp{
+    font-size: 5em;
+  }
+  
+}

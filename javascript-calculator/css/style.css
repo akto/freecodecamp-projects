@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Saira+Semi+Condensed|Titillium+Web');
+body{
+  font-family: "Roboto Mono", monospace;
+}
+.calc-display{  
+  min-height:43vh;
+}
+.calc-display-head,
+.c-spe,
+.calc-hist h3,
+.btn{
+  color:#026FB8;
+}
+.calc-display-stage{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 28vh;
+}
+.calc-pad{
+  margin: 0;
+  padding: 0;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+.calc-pad-cover{
+  text-align: center;
+}
+.calc-pad-row .calc-press{
+  min-height: 10vh;
+  vertical-align: text-bottom;
+  border:solid 1px rgba(0,0,0,0.1);
+  margin:3px;
+  padding-top:2vh;
+  font-size:2em;
+}
+.calc-pad-row div:hover{
+  background: rgba(0,255,0,0.1);
+}
+.calc-pad-row div:hover,
+.btn:hover{
+  cursor: pointer;
+}
+.h-entries{
+  margin:0;
+  padding:0;
+}
+.btn{
+  border:solid 1px rgba(0,0,0,0.1);
+  background-color: #FFF;
+  margin-left: 10px;
+}
+.btn:hover{
+  background: rgba(255,0,0,0.1);
+}

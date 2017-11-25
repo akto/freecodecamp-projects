@@ -1,0 +1,18 @@
+body{
+  color: #212529;
+}
+.container header,
+.clock{
+  text-align: center;
+}
+.break button,
+.session button{
+  color: #28a745;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+}
+.progress-bar{
+  background-color: #dc3545;
+}

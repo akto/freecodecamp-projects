@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='container-fluid'>
+  <!-- Calculation Display Begin -->
+  <header class='row calc-display'>
+    <div class='calc-display-head'><h1>Calculate:</h1></div>
+    <div id='calcStage' class='calc-display-stage '></div>
+  </header>
+  <!-- Calculation Display End -->
+  <div class='row'>
+    <!-- Calculator Pad Begin -->
+    <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sm-12 calc-pad'>
+      <div class='row col-lg-12 col-xs-12 col-sm-12 calc-pad-cover'>
+        
+        <div class='row col-lg-12 col-xs-12 col-sm-12 align-items-center calc-pad-row'>
+          <div id='c' class='col-2 calc-press c-spe'>C</div>
+          <div id='backspace' class='col-2 calc-press c-spe'><i class='fa fa-long-arrow-left'></i></div>
+          <div id='%' class='col-2 calc-press c-spe'>%</div>
+          <div id='/' class='col-2 calc-press c-spe'>/</div>
+        </div>
+        
+        <div class='row col-lg-12 align-items-center calc-pad-row'>
+          <div id='7' class='col-2 calc-press'>7</div>
+          <div id='8' class='col-2 calc-press'>8</div>
+          <div id='9' class='col-2 calc-press'>9</div>
+          <div id='*' class='col-2 calc-press c-spe'>x</div>
+        </div>
+        
+        <div class='row col-lg-12 align-items-center calc-pad-row'>
+          <div id='4' class='col-2 calc-press'>4</div>
+          <div id='5' class='col-2 calc-press'>5</div>
+          <div id='6' class='col-2 calc-press'>6</div>
+          <div id='-' class='col-2 calc-press c-spe'>-</div>
+        </div>
+        
+        <div class='row col-lg-12 align-items-center calc-pad-row'>
+          <div id='1' class='col-2 calc-press'>1</div>
+          <div id='2' class='col-2 calc-press'>2</div>
+          <div id='3' class='col-2 calc-press'>3</div>
+          <div id='+' class='col-2 calc-press c-spe'>+</div>
+        </div>
+        <div class='row col-lg-12 calc-pad-row'>
+          <div id='^' class='col-2 calc-press c-spe'><span>^</span></div>
+          <div id='0' class='col-2 calc-press'>0</div>
+          <div id='.' class='col-2 calc-press c-spe'>.</div>
+          <div id='=' class='col-2 calc-press c-spe'>=</div>
+        </div>
+        
+        
+      </div>
+    </div>
+    <!-- Calculator Pad End -->
+    <!-- Calculation History Begin -->
+    <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 calc-hist'>
+      <div class='row h-head'><h3>Calculation History </h3><button type="button" class="btn btn-light h-clean">Clear History</button></div>
+      <div class='h-entries'></div>
+    </div>
+    <!-- Calculation History End -->
+  
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
